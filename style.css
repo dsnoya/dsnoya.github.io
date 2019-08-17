@@ -1,0 +1,83 @@
+/*Everything*/
+
+html, 
+body{
+    font-family: Arial, calibri, sans-serif;
+    text-align: center;
+    min-width:250px;
+    background-color: #87CEFA; 
+    }
+
+
+
+/*TOP*/
+
+
+#main { 
+    margin:30px auto;
+    padding:50px; 
+    border: 7px solid;
+    border-radius:10px;
+    background:#eee;
+    }
+
+#main #title {
+    font-weight: bold;
+    }
+
+#main #title:hover {     
+    text-decoration: line-through;
+    color: orange;
+    font-size: 25px;
+    }
+
+#main .subtitle {
+    font-size: 20px
+    }
+
+#main #img-div {
+    margin:20px 5px 20px 5px;
+    max-width: 100%;
+    height: auto;
+    background: white;
+    }
+
+#main #image {             
+    max-width:100%;
+    display: block;
+    height: auto;
+    margin: auto;  
+    }
+
+
+
+/*BOTTOM*/
+
+#tribute-info #headline {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+    }
+
+#tribute-info ul {
+    max-width:500px;
+    margin:0px auto;
+    text-align:left;
+    list-style-type: circle;
+    }
+
+#tribute-info li{
+    margin: 10px;
+    font-size: 15px;
+    padding-bottom: 7px;
+    }
+
+
+
+/*FOOTER*/
+
+#footer {
+    width:100%;
+    margin: 0 auto;
+    font-size: 16px;
+    }
